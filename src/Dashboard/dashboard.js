@@ -5,7 +5,8 @@ import ChatViewComponent from '../ChatView/chatView';
 import ChatTextBoxComponent from '../ChatTextBox/chatTextBox';
 import styles from './styles';
 import { Button, withStyles } from '@material-ui/core';
-const firebase = require("firebase");
+import firebase from 'firebase'
+
 
 // I need to investigate why sometimes
 // two messages will send instead of just

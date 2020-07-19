@@ -2,8 +2,10 @@ import React from 'react';
 import LoginComponent from './Login/login';
 import SignupComponent from './Signup/signup';
 import DashboardComponent from './Dashboard/dashboard';
-const firebase = require("firebase");
-require("firebase/firestore"); // Required for side-effects
+// const firebase = require("firebase/app");
+// require("firebase/firestore"); // Required for side-effects
+import firebase from 'firebase'
+require('firebase/firestore')
 
 class AppContainer extends React.Component {
 
